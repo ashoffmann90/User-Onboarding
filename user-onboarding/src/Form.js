@@ -129,6 +129,7 @@ function Form() {
             <br/>
             <label htmlFor='password'>Password:
                 <input 
+                id='password'
                 name='password' 
                 type='text' 
                 //Step 8: We can also set up the value and onChange for each of our inputs now.
@@ -152,7 +153,7 @@ function Form() {
             {/* Step 11c: Display Data. For our purposes, we’ll just display data to the DOM, instead of doing something with it on a server. For that we will use JSON.stringify to display our data in both the DOM and the console. */}
             <pre>{JSON.stringify(post, null, 2)}</pre>
             {/* Step 4b: add button things */}
-            <button disabled={buttonDisabled}>Submit</button>
+            <button data-cy='submit' disabled={buttonDisabled}>Submit</button>
         </form>
         </>
     )
