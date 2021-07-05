@@ -1,0 +1,6 @@
+{
+    "editor.acceptSuggestionOnEnter": "smart",
+    "emmet.showSuggestionsAsSnippets": true,
+    "editor.tabCompletion": "onlySnippets",
+    "editor.suggest.localityBonus": true
+}
